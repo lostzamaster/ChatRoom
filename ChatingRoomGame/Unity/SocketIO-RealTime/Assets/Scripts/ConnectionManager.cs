@@ -133,7 +133,7 @@ public class ConnectionManager : MonoBehaviour
                 {
                     LeaveRoom();
                 }
-                 displayText = GUI.TextArea(new Rect(200, 10, 500, 100), displayText, 50);
+                 displayText = GUI.TextArea(new Rect(200, 10, 500, 100), displayText);
 
 
                  inputText = GUI.TextField(new Rect(200, 120, 500, 20), inputText, 25);
